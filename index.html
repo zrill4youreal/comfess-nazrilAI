@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confess Untuk Kamu 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💌 Hai, Kamu...</h1>
+        <p class="subtitle">Aku ada sesuatu untukmu...</p>
+
+        <button id="openMessage">Buka Pesan</button>
+
+        <div id="messageBox" class="hidden">
+            <p class="message">
+                Sejak pertama kita ngobrol, aku merasa ada sesuatu yang berbeda.<br>
+                Kamu membuat hari-hariku lebih indah.<br>
+                Aku suka sama kamu... 💖
+            </p>
+            <button id="replyBtn">Jawab</button>
+        </div>
+
+        <div id="replyOptions" class="hidden">
+            <p class="subtitle">Pilih jawabanmu:</p>
+            <button class="choice" data-reply="aku_suka">Aku juga suka kamu 💖</button>
+            <button class="choice" data-reply="aku_cekal">Aku sukaa cekaliiiii💕💕💘</button>
+        </div>
+
+        <div id="finalReply" class="hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
